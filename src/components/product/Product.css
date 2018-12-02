@@ -1,0 +1,43 @@
+.Product {
+    padding: 50px;
+}
+
+.info {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.info .brand {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.info .title {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.info .description {
+    font-size: 15px;
+    color: #939293;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #939393;
+}
+
+.info .btn {
+    background: #1e1e1e;
+    color: white;
+    height: 35px;
+    width: 120px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+.info .form-control {
+    width: 60px;
+    display: inline-block;
+    padding-top: 0px;
+    height: 36px;
+    margin-right: 21px;
+}

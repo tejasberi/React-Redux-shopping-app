@@ -1,0 +1,14 @@
+.cart-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.cart-item .img-wrap {
+    height:100px;
+}
+
+.cart-item .input-wrap,
+.cart-item .price-wrap,
+.cart-item .action-wrap {
+    padding-top: 30px;
+}

@@ -1,0 +1,32 @@
+.left-banner {
+    height: 250px;
+    padding: 20px;
+    color: white;
+    background-image: url("../../media/plates-header.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 260%;
+    background-position-y: 40%;
+}
+
+.right-banner {
+    height: 250px;
+    padding: 20px;
+    color: white;
+    background-image: url("../../media/plates-header.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: 260%;
+    background-position-y: 40%;
+    background-position-x: 100%;
+}
+
+.text {
+    padding: 3% 5% !important;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}

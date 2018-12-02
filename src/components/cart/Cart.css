@@ -1,0 +1,23 @@
+.cart {
+    height: 100%;
+}
+
+.cart h1 {
+    text-align: center;
+    padding: 5%;
+}
+
+.cart .cart-list {
+    background: #fff;
+    padding: 40px;
+    margin: 0 15%;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border-radius: 5px;
+}
+
+.cart .total {
+    text-align: right;
+    padding: 20px;
+    font-weight: bold;
+    color: #939293;
+}
