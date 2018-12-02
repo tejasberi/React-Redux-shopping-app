@@ -8,7 +8,6 @@ import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import logger from 'redux-logger';
 import ItemListReducer from './store/Item-list.reducer';
 import CartItemReducer from './store/Cart-item.reducer';
 

@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import CurrencyFormat from 'react-currency-format';
 import AddToCartBtn from '../add-to-cart-btn/Add-to-cart-btn';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Item.css';
 
 const Item = (props) => {
     return (
         <div className="col-4 item">
             <div className="img-wrap">
-                <img src={`./media/${props.product.image}`} />
+                <img src={`./media/${props.product.image}`} alt={props.product.title}/>
                 <button type="button" class="view-btn btn" to="`/product/${props.product.title}`"><Link to={`/product/${props.index}`}>VIEW DETAILS</Link></button>
                 <AddToCartBtn count={props.count} product={props.product}/>
                 

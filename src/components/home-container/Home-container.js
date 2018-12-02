@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import axios from 'axios';
 import HeroBanner from "../hero-banner/Hero-banner";
 import ItemList from "../item-list/ItemList";
 import './Home-container.css';
-import * as actionTypes from '../../store/Actions';
 
 class HomeContainer extends Component {
     state = {

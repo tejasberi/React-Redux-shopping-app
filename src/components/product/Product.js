@@ -22,7 +22,7 @@ class Product extends Component {
             <div className="container">
                 <div className="Product row">
                     <div className="col-8">
-                        <img src={`../media/${this.props.products.products[this.state.id].image}`} />
+                        <img src={`../media/${this.props.products.products[this.state.id].image}`} alt={this.props.products.products[this.state.id].title} />
                     </div>
                     <div className="col-4 info">
                         <p className="brand">{this.props.products.products[this.state.id].brand}</p>

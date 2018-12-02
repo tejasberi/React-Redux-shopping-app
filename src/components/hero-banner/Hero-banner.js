@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import logo from '../../media/plates-header.jpg';
+import React from 'react';
 import './Hero-banner.css';
 
 const HeroBanner = () => {
