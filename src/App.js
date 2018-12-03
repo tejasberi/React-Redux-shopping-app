@@ -17,12 +17,10 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-        <Switch>
           <Route exact path="/" component={HomeContainer} />
           <Route path="/cart" component={Cart} />
           <Route path="/product/:id" component={Product} />
           <Route path="/category/:id" component={Category} />
-        </Switch>
       </div>
     );
   }
